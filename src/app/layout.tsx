@@ -8,9 +8,9 @@ import ToasterProvider from "@/components/ToasterProver";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Sumadhura Tea & Twilight",
+  title: "Adarsh Welkin Park",
   description:
-    "Explore premium residential properties in Whitefield",
+    "Explore premium residential properties in Off Sarjapur Road",
 };
 
 export default function RootLayout({
@@ -30,13 +30,13 @@ export default function RootLayout({
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-W7HD3DK7');`,
+})(window,document,'script','dataLayer','GTM-MRJZX87Q');`,
           }}
         />
         
         <script
           async
-          src="https://www.googletagmanager.com/ns.html?id=GTM-W7HD3DK7"
+          src="https://www.googletagmanager.com/ns.html?id=GTM-MRJZX87Q"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -44,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 window.dataLayer = window.dataLayer || [];
 function gtag(){ window.dataLayer.push(arguments); }
 gtag('js', new Date());
-gtag('config', 'G-JKJF31M0SR');
+gtag('config', 'G-ZKLECM6K3H');
 `,
           }}
         />

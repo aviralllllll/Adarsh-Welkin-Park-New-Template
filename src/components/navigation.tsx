@@ -64,9 +64,9 @@ export default function Navigation() {
             {/* Logo */}
             <div>
               <img
-                src={"/assets/sumadhuralogo.png"}
+                src={"/assets/introduction/adarsh log.png"}
                 alt="Godrej Logo"
-                className="w-35 h-10 lg:w-60 lg:h-25
+                className="w-25 h-10 lg:w-40 lg:h-25
                  object-contain"
               />
             </div>

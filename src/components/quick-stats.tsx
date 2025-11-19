@@ -1,8 +1,8 @@
 export default function QuickStats() {
   const stats = [
-    { label: "Starting Price", value: "₹1.6 Cr" },
-    { label: "Configuration", value: "2,3 & 4 BHK" },
-    { label: "Project Size", value: "20 Acre" },
+    { label: "Starting Price", value: "₹1.3 Cr" },
+    { label: "Configuration", value: "2.5 & 3 BHK" },
+    { label: "Project Size", value: "51 Acre" },
     { label: "Possession", value: "2029" },
   ]
 

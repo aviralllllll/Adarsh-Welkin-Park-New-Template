@@ -23,7 +23,7 @@ export default function EnquiryModal({
 }: EnquiryModalProps) {
   // initialize GA (client-side only)
   const GA_MEASUREMENT_ID =
-    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-3J8R39GCCX";
+    process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ?? "G-ZKLECM6K3H";
   useEffect(() => {
     if (GA_MEASUREMENT_ID) {
       ReactGA.initialize(GA_MEASUREMENT_ID);
@@ -89,8 +89,8 @@ export default function EnquiryModal({
       phoneNumber: phoneNumber.trim(),
       campaign: true,
       projectId: "",
-      projectName: "Sumadhura tea & twilight",
-      currentAgent: "Rishu",
+      projectName: "Adarsh Welkin Park",
+      currentAgent: "Fahad Ur Rahman",
       utmDetails: {
         source: utmParams.utmSource || null,
         medium: utmParams.utmMedium || null,
@@ -170,11 +170,11 @@ export default function EnquiryModal({
           onClick={(e) => e.stopPropagation()}
         >
           {/* Header */}
-          <div className="sticky top-0 bg-[#F9F4ED] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200">
+          <div className="sticky top-0 bg-[#DEEDFC] px-4 md:px-5 py-5.5 flex items-center justify-between border-b border-gray-200">
             <img
-              src="/assets/sumadhuralogo.png"
+              src="/assets/introduction/adarsh_modal.png"
               alt="Godrej Logo"
-              className="h-10 md:h-15 w-auto"
+              className="h-5 md:h-5 w-auto"
             />
             <button
               onClick={onClose}

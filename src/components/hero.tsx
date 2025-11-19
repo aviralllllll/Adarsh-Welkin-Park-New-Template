@@ -13,12 +13,13 @@ export default function Hero() {
       <div
         className="absolute inset-0 bg-cover  bg-primarybg-center"
         style={{
-          backgroundImage: `url('/assets/gallery/image8.png')`,
+          backgroundImage: `url('/assets/introduction/image.png')`,
         }}
       />
 
       {/* Dark Gradient Overlay - from left (dark) to right (transparent) */}
-      <div className="absolute inset-0 bg-gradient-to-r from-black/20 via-black/10 to-transparent" />
+     <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/10 to-transparent" />
+
 
       {/* Additional vignette overlay for better text contrast */}
       <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/30" />
@@ -26,7 +27,7 @@ export default function Hero() {
       <div className="relative h-full flex flex-col justify-center items-center md:items-start max-w-6xl mx-auto px-4 md:px-0">
         <div className="text-white text-center md:text-left items-center md:items-start max-w-2xl">
           {/* New Launch Badge */}
-          <div className="bg-[#D99B2A]/60 backdrop-blur-sm flex gap-2 items-center w-fit mx-auto md:mx-0 border border-[#D99B2A] px-3 py-1.5 rounded-full text-sm md:text-base font-bold font-['Plus_Jakarta_Sans'] mb-4">
+          <div className="bg-[#004789]/60 backdrop-blur-sm flex gap-2 items-center w-fit mx-auto md:mx-0 border border-[#004789] px-3 py-1.5 rounded-full text-sm md:text-base font-bold font-['Plus_Jakarta_Sans'] mb-4">
             <svg
               width="15"
               height="15"
@@ -52,12 +53,12 @@ export default function Hero() {
 
           {/* Heading */}
           <h1 className="text-[36px] md:text-5xl lg:text-[58px] font-extrabold font-['Urbanist'] mb-4 leading-tight drop-shadow-2xl">
-          Luxury Apartments in Whitefield
+          Luxury Apartments in Off Sarjapur Road
           </h1>
 
           {/* Description */}
           <p className="text-[16px] md:text-lg lg:text-lg mb-8 text-gray-200 font-['Urbanist'] font-bold drop-shadow-lg">
-          British-Inspired Residential Community
+          Exlusive Units for first 100 customers
           </p>
 
           {/* CTA Button */}

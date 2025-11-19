@@ -14,7 +14,7 @@ export default function FAQs() {
     {
       question: "What is the location of the project?",
       answer:
-        "The project, Tea & Twilight by Sumadhura, is located in the vibrant Whitefield micro-market, specifically in the Siddapura area of East Bangalore. It offers excellent connectivity to the region's massive IT and social infrastructure.",
+        "The project, Welkin Park by Adarsh, is located along Rayasandra Road. It offers unmatched connectivity to Sarjapur Road, Electronic City, and the Metro Phase III.",
     },
     {
       question: "When does the pre booking start for the project?",

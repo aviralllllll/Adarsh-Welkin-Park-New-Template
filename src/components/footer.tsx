@@ -8,7 +8,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="bg-[#3A372E] text-white">
+      <footer className="bg-[#1A3761] text-white">
         {/* Disclaimer Section */}
         <div className="border-b border-[#4E5553]">
           <div className="max-w-7xl mx-auto px-4 md:px-0 py-12 md:py-16">
@@ -50,14 +50,14 @@ export default function Footer() {
               </p>
               <span className="hidden md:inline text-[#A0A0A0]">|</span>
               <a
-                href="https://snn-duomont.in/Terms&Condition.html"
+                href="https://canvas-homes.com/terms-of-service/"
                 className="text-[#A0A0A0] hover:text-white transition-colors text-sm font-['Urbanist'] font-medium"
               >
                 Terms and Condition
               </a>
               <span className="hidden md:inline text-[#A0A0A0]">|</span>
               <a
-                href="https://snn-duomont.in/Privacy-policy.html"
+                href="https://canvas-homes.com/privacy-policy/"
                 className="text-[#A0A0A0] hover:text-white transition-colors text-sm font-['Urbanist'] font-medium"
               >
                 Privacy policy

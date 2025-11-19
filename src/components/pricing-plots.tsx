@@ -11,9 +11,9 @@ export default function PricingPlots() {
   const [isModalOpen, setIsModalOpen] = useState(false)
   const [clickedIndex, setClickedIndex] = useState<number | null>(null)
   const plots = [
-    { price: "₹1.66 Cr+", size: "2 BHK (1360 Sq. Ft)" },
-{ price: "₹2 Cr+", size: "3 BHK (1920Sq. Ft)" },
-{ price: "₹2.5 Cr+", size: "3 BHK (2295 Sq. Ft)" },
+    { price: "₹1.38 Cr+", size: "2.5 BHK (1352–1454 sq.ft)" },
+{ price: "₹1.98 Cr+", size: "3 BHK (804–1906 sq.ft)" },
+
 
 ];
 
@@ -67,7 +67,7 @@ export default function PricingPlots() {
             Choose Your Apartment
           </h2>
           <p className="text-[#433F3E] text-[14px] md:text-lg font-medium font-['Urbanist'] max-w-3xl">
-            Select from our range of thoughtfully designed 1 ,2, 3 & 4 BHK residences, each crafted to elevate your urban living experience.
+            Select from our range of thoughtfully designed 2.5 & 3 BHK residences, each crafted to elevate your urban living experience.
           </p>
         </div>
 
